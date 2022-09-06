@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <title>Random Number</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <header class="header">RANDOM NUMBER GENERATOR</header>
+</head>
+<body>
+    <div class="layout">
+        <div class="area">
+            <div class="start">
+    <label>From:</label>
+    <input type="number" placeholder="from" id="start">
+    </div>
+    <div class="end">
+    <label>To:</label>
+    <input type="number" placeholder="to" id="end">
+    </div>
+    <div class="btn">
+    <br><button type="submit" onclick="GenerateRandom();ResultBackground()"style="background:none;color:white;border-color:white;border-radius:6px;height:30px;width:10%;">Generate</button>
+    </div>
+</div>
+</div>
+<div class="result" id="result">
+<p id="displayRandom"><center></center></p>
+</div>
+    </body>
+</html>
